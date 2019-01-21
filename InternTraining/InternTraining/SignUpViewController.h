@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface SignUpViewController : UIViewController
+- (IBAction)closeCurrentView:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *fullNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *emailTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (weak, nonatomic) IBOutlet UITextField *confirmPasswordTextField;
+
+
+
 
 @end
